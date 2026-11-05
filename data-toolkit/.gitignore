@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.vscode/
+.DS_Store
+
+# Data files you don't want public
+uploads/
+*.xlsx
+*.csv
+!sample_data/*.csv
